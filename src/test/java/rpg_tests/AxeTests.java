@@ -21,7 +21,7 @@ public class AxeTests {
     @Test
     public void weaponAttackLosesDurability(){
         axe.attack(dummy);
-        Assert.assertEquals("Message if fail", 9, axe.getDurabilityPoints());
+        Assert.assertEquals("Message if fail", EXPECTED_DURABILITY, axe.getDurabilityPoints());
     }
 
     @Test(expected = IllegalStateException.class)
