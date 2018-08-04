@@ -7,6 +7,6 @@ public final class Constants {
     public static final int DUMMY_HEALTH = 10;
     public static final int DUMMY_XP = 10;
     public static final int TARGET_XP = 10;
-    public static final String HERO_NAME = "Pesho";
+    public static final String HERO_NAME = "George";
     private Constants(){}
 }
